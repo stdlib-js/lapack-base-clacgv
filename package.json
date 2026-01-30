@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/lapack-base-clacgv",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Conjugate each element in a single-precision complex floating-point vector.",
   "license": "Apache-2.0",
   "author": {
@@ -99,9 +99,6 @@
     "float32",
     "float32array"
   ],
-  "__stdlib__": {
-    "wasm": false
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
