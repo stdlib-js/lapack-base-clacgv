@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/lapack-base-clacgv/tags). For example,
+
+```javascript
 import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@v0.1.0-esm/index.mjs';
 ```
 
@@ -162,7 +167,7 @@ var z = cx.get( 3 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@v0.1.0-esm/index.mjs';
+import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@esm/index.mjs';
 
 function rand() {
     return new Complex64( discreteUniform( 0, 10 ), discreteUniform( -5, 5 ) );
