@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@esm/index.mjs';
+import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@v0.1.1-esm/index.mjs';
 ```
 
 #### clacgv( N, cx, strideCX )
@@ -162,7 +162,7 @@ var z = cx.get( 3 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@esm/index.mjs';
+import clacgv from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-clacgv@v0.1.1-esm/index.mjs';
 
 function rand() {
     return new Complex64( discreteUniform( 0, 10 ), discreteUniform( -5, 5 ) );
