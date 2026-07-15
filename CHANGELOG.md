@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-11)
+## Unreleased (2026-07-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`199bb30`](https://github.com/stdlib-js/stdlib/commit/199bb30fd65e5ae83acd090f856fd0401edb8acb) - **docs:** update descriptions [(#13481)](https://github.com/stdlib-js/stdlib/pull/13481) _(by Philipp Burckhardt)_
 -   [`1c9bfd0`](https://github.com/stdlib-js/stdlib/commit/1c9bfd028c7654e21291e3f4a88fcf3918628532) - **docs:** improve doctests for complex number typed arrays in `lapack/base/clacgv` [(#12018)](https://github.com/stdlib-js/stdlib/pull/12018) _(by Karan Anand)_
 -   [`1c77c62`](https://github.com/stdlib-js/stdlib/commit/1c77c6221a42796e036a3f370732dfec9d579264) - **bench:** refactor to use string interpolation in `lapack/base/clacgv` [(#10088)](https://github.com/stdlib-js/stdlib/pull/10088) _(by Prajjwal Bajpai)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 -   Prajjwal Bajpai
 
 </section>
